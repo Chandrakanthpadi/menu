@@ -8,6 +8,8 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields:
-      - { label: "Item", name: "title", widget: "string", default: "item" }
+      - { label: "Item", name: "title", widget: "string" }
+      - { label: "Tags", name: "tags", widget: "hidden", default: "item" }
+
 media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
 public_folder: "/images/uploads"
