@@ -1,7 +1,6 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: "Teko", sans-serif;
 }
 
 body {
@@ -18,6 +17,7 @@ body {
   min-width: min(80vw, 500px);
 }
 h2 {
+  font-family: "Teko", sans-serif;
   color: black;
   text-align: center;
   margin: 1rem 0rem;
@@ -27,8 +27,11 @@ h2 {
 .card {
   background-color: #0b3954;
   margin-bottom: 0.3rem;
-  padding: 1rem 1rem;
+  padding: 1.3rem 1rem;
   border-radius: 0.4rem;
   font-size: 1.3rem;
   color: #eff0d1;
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-weight: 600;
+  text-align: center;
 }
