@@ -1,3 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Teko", sans-serif;
+}
+
+body {
+  background-color: #bfd7ea;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 0.4rem;
+}
+
+.content {
+  padding: 0rem 2rem;
+  min-width: min(80vw, 500px);
+}
 h2 {
-  color: red;
+  color: black;
+  text-align: center;
+  margin: 1rem 0rem;
+  font-size: 2rem;
+}
+
+.card {
+  background-color: #0b3954;
+  margin-bottom: 0.3rem;
+  padding: 1rem 1rem;
+  border-radius: 0.4rem;
+  font-size: 1.3rem;
+  color: #eff0d1;
 }
