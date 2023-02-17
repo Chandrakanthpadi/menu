@@ -1,0 +1,9 @@
+---
+title: The Food Junction
+body: Bye
+layout: "base.njk"
+---
+
+{%- for item in collections.item -%}
+<h3>{{ item.data.title }}</h3>
+{%- endfor %}
