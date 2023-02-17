@@ -14,14 +14,15 @@ body {
 
 .content {
   padding: 0rem 2rem;
-  min-width: min(80vw, 500px);
+  min-width: min(90vw, 500px);
 }
 h2 {
   font-family: "Teko", sans-serif;
-  color: black;
+  color: #000;
   text-align: center;
   margin: 1rem 0rem;
   font-size: 2rem;
+  border-bottom: 0.2rem solid #0b3954;
 }
 
 .card {
